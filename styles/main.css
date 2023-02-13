@@ -44,5 +44,5 @@ body {
     display: block;
 }
 .header-nav a.active::after {
-    background: #FFC725;
+    background-color: #FFC725;
 }
