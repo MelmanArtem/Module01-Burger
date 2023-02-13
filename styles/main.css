@@ -46,3 +46,39 @@ body {
 .header-nav a.active::after {
     background-color: #FFC725;
 }
+.button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    gap: 10px;
+}
+.button-item {
+    position: relative;
+}
+.button-count {
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #F37335;
+    border-radius: 100%;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    line-height: 1.3;
+    bottom: 4px;
+    right: -9px;
+}
+.button-text {
+    color: #443737;
+    font-weight: 700;
+    font-size: 15px;
+}
+.bg {
+    text-align: center;
+    color: #FFFFFF;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
