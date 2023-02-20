@@ -138,12 +138,13 @@ header {
 .banner-box {
     background-image: url(../images/banner.jpg);
     max-width: 1180px;
-    height: 438px;
     padding: 100px;
     background-repeat: no-repeat;
     box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
 }
-.banner-title {
+.banner-title span {
     color: #FFFFFF;
     background-color: #F37335;
     font-size: 14px;
@@ -158,14 +159,14 @@ header {
     font-size: 60px;
     font-weight: 900;
     color: #FFFFFF;
-    margin: 0 0 auto;
+    margin: 0 0;
 }
 .banner-text {
     color: #FAF9F9;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    max-width: 352px;
+    max-width: 320px;
     line-height: 24px;
 }
 .banner-link {
@@ -178,4 +179,8 @@ header {
     border-radius: 5px;
     padding: 15px 25px;
     display: inline-block;
+
+}
+.banner-link:hover {
+    background-color: #a87a63;
 }
