@@ -142,24 +142,27 @@ header {
     background-repeat: no-repeat;
     box-sizing: border-box;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 .banner-title span {
     color: #FFFFFF;
+    text-align: center;
     background-color: #F37335;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 600;
-    padding: 5px 19px;
+    padding: 5px 20px;
     border-radius: 14px;
-    display: inline-block;
+    display: block;
     text-transform: uppercase;
-    margin: 0 0 auto;
+    max-width: 70px;
 }
-.sale {
+.banner-title {
     font-size: 60px;
     font-weight: 900;
     color: #FFFFFF;
-    margin: 0 0;
+    margin-top: 0;
+    margin-bottom: 12px;
 }
 .banner-text {
     color: #FAF9F9;
@@ -168,6 +171,8 @@ header {
     font-size: 15px;
     max-width: 320px;
     line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 .banner-link {
     color: #1E2F40;
@@ -177,10 +182,10 @@ header {
     font-weight: 700;
     font-size: 14px;
     border-radius: 5px;
-    padding: 15px 25px;
+    padding: 17px 25px;
     display: inline-block;
-
 }
 .banner-link:hover {
     background-color: #a87a63;
 }
+
