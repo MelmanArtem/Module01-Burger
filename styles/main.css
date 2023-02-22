@@ -253,17 +253,19 @@ header {
     border: none;
     border-radius: 5px;
     background-color: #FBB731;
-    
+    padding: 10px 30px;
 }
 .menu-grid-icon {
     position: relative;
     color: #443737;
+    height: 18px;
+    width: 18px;
+    top: 4px;
 }
 .menu-grid-text {
     color: #1E2F40;
     font-weight: 700;
     font-size: 14px;
-    text-align: center;
     background-color: #FBB731;
 }
 .menu-title-dop {
