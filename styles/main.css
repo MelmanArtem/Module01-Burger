@@ -218,6 +218,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    text-align: center;
 }
 .menu-grid-cover {
     width: 100%;
@@ -238,7 +239,6 @@ header {
     color: #1B2A49;
     font-size: 30px;
     font-weight: 600;
-    text-align: center;
     margin-bottom: 0;
     margin-top: 20px;
 }
@@ -246,7 +246,6 @@ header {
     color: #979797;
     font-size: 20px;
     font-weight: 700;
-    text-align: center;
     margin-top: 0;
 }
 .menu-grid-btn {
@@ -254,6 +253,7 @@ header {
     border-radius: 5px;
     background-color: #FBB731;
     padding: 10px 30px;
+    margin-bottom: 25px;
 }
 .menu-grid-icon {
     position: relative;
@@ -274,5 +274,5 @@ header {
     text-transform: uppercase;
     color: #1B2A49;
     margin-bottom: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
