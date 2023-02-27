@@ -1,9 +1,7 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
 }
-.header-nav a, 
-.breadcrumbs a, 
-.banner-link {
+a {
     text-decoration: none;
 }
 ul {
@@ -38,8 +36,6 @@ header {
 }
 .header-nav {
     display: flex;
-    list-style-type: none;
-    padding-left: 0;
     gap: 46px;
 }
 .header-nav a {
@@ -306,6 +302,8 @@ header {
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 12px;
+    margin-top: 0;
+    color: #FAF9F9;
 }
 .footer-item ul,
 .footer-tel ul {
@@ -330,7 +328,8 @@ header {
     font-weight: 400;
     margin-bottom: 2px;
 }
-.footer-tel ul {
+.footer-tel {
+    text-decoration: none;
     font-size: 20px;
     color: #FBB731;
     font-weight: 900;
