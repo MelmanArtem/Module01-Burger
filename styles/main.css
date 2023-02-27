@@ -26,6 +26,12 @@ header {
     padding-top: 26px;
     padding-bottom: 25px;
 }
+.header-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 68.5%;
+}
 .header-logo {
     display: block;
     background-image: url(../images/logo.svg);
@@ -186,11 +192,13 @@ header {
     font-weight: 700;
     font-size: 14px;
     border-radius: 5px;
-    padding: 17px 25px;
+    padding: 16px 24px;
     display: inline-block;
+    border: 1px solid #FBB731;
 }
 .banner-link:hover {
-    background-color: #a87a63;
+    background-color: transparent;
+    color: #FBB731;
 }
 .menu-header {
    display: flex;
@@ -256,14 +264,18 @@ header {
 }
 .menu-grid-btn {
     display: flex;
-    border: none;
     border-radius: 5px;
     background-color: #FBB731;
-    padding: 10px 30px;
+    padding: 8px 28px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     gap: 9px;
+    border: 1px solid #FBB731;
+}
+.menu-grid-btn:hover {
+    background-color: #F37335;
+    cursor: pointer;
 }
 .menu-grid-icon {
     color: #443737;
@@ -277,7 +289,7 @@ header {
     color: #1E2F40;
     font-weight: 700;
     font-size: 14px;
-    background-color: #FBB731;
+    background-color: transparent;
 }
 .footer {
     background-color: #1E2F40;
@@ -303,7 +315,7 @@ header {
     text-transform: uppercase;
     margin-bottom: 12px;
     margin-top: 0;
-    color: #FAF9F9;
+    color: #FBB731;
 }
 .footer-item ul,
 .footer-tel ul {
@@ -331,8 +343,8 @@ header {
 .footer-tel {
     text-decoration: none;
     font-size: 20px;
-    color: #FBB731;
-    font-weight: 900;
+    color: #FAF9F9;
+    font-weight: 700;
 }
 .footer-tel li {
     margin-bottom: 12px;
