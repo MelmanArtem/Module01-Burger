@@ -271,7 +271,7 @@ header {
     justify-content: center;
     margin: 0 auto;
     gap: 9px;
-    border: 1px solid #FBB731;
+    border: 1px solid transparent;
 }
 .menu-grid-btn:hover {
     background-color: #F37335;
@@ -321,7 +321,7 @@ header {
 .footer-tel ul {
     list-style-type: none;
 }
-.footer-item li {
+.footer-list li {
     margin-bottom: 9px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -329,7 +329,7 @@ header {
     font-weight: 700;
     line-height: 24px;
 }
-.footer-item a {
+.footer-list a {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
@@ -340,12 +340,15 @@ header {
     font-weight: 400;
     margin-bottom: 2px;
 }
-.footer-tel {
-    text-decoration: none;
-    font-size: 20px;
-    color: #FAF9F9;
-    font-weight: 700;
-}
-.footer-tel li {
+.footer-list-tel li {
     margin-bottom: 12px;
+}
+.footer-list-tel a {
+    font-size: 20px;
+    color: #DEDEDE;
+    font-weight: 900;
+}
+.footer-list {
+    padding-left: 0;
+    list-style-type: none;
 }
