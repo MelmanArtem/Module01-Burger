@@ -51,6 +51,7 @@ header {
 }
 .header-nav a:hover {
     color: #FFC725;
+    transition-duration: 0.4s;
 }
 .header-nav a::after {
     content: '';
@@ -118,6 +119,7 @@ header {
 }
 .breadcrumbs a:hover {
     color: #FFC725;
+    transition-duration: 0.3s;
 }
 .breadcrumbs a::before {
     content: '/';
