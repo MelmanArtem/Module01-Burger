@@ -199,6 +199,7 @@ header {
 .banner-link:hover {
     background-color: transparent;
     color: #FBB731;
+    transition-duration: 0.4s;
 }
 .menu-header {
    display: flex;
@@ -276,6 +277,7 @@ header {
 .menu-grid-btn:hover {
     background-color: #F37335;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 .menu-grid-icon {
     color: #443737;
@@ -317,10 +319,6 @@ header {
     margin-top: 0;
     color: #DEDEDE
 }
-.footer-item ul,
-.footer-tel ul {
-    list-style-type: none;
-}
 .footer-list li {
     margin-bottom: 9px;
     font-family: 'Open Sans', sans-serif;
@@ -330,9 +328,12 @@ header {
     line-height: 24px;
 }
 .footer-list a {
-    color: #DEDEDE;
-    text-decoration: none;
+    color: #DEDEDE;    
     font-weight: 400;
+}
+.footer-list a:hover {
+    color: #FBB731;
+    transition-duration: 0.3s;
 }
 .footer-item span {
     color: #DEDEDE;
@@ -348,9 +349,12 @@ header {
     color: #FBB731;
     font-weight: 900;
 }
+.footer-list-tel a:hover {
+    color: #DEDEDE;
+    transition-duration: 0.3s;
+}
 .footer-list {
     padding-left: 0;
-    list-style-type: none;
 }
 
 /*Style INDEX*/
