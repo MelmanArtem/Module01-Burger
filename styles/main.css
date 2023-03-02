@@ -48,10 +48,10 @@ header {
     font-weight: 600;
     font-size: 20px;
     color: #443737;
+    transition: 0.3s;
 }
 .header-nav a:hover {
     color: #FFC725;
-    transition-duration: 0.4s;
 }
 .header-nav a::after {
     content: '';
@@ -116,10 +116,10 @@ header {
     color: #DEDEDE;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
+    transition: 0.3s;
 }
 .breadcrumbs a:hover {
     color: #FFC725;
-    transition-duration: 0.3s;
 }
 .breadcrumbs a::before {
     content: '/';
@@ -149,8 +149,7 @@ header {
 }
 .banner-box {
     background-image: url(../images/banner.jpg);
-    max-width: 1180px;
-    padding: 100px;
+    padding: 100px 100px 120px;
     background-repeat: no-repeat;
     box-sizing: border-box;
     background-size: cover;
@@ -194,19 +193,23 @@ header {
     font-weight: 700;
     font-size: 14px;
     border-radius: 5px;
-    padding: 16px 24px;
+    padding: 18px 25px;
     display: inline-block;
     border: 1px solid #FBB731;
+    transition: 0.3s;
 }
 .banner-link:hover {
     background-color: transparent;
     color: #FBB731;
-    transition-duration: 0.4s;
+}
+.menu {
+    padding-top: 20px;
 }
 .menu-header {
    display: flex;
    align-items: center; 
    justify-content: space-between;
+   margin-bottom: 37px;
 }
 .menu-title,
 .menu-title-dop {
@@ -214,7 +217,7 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     color: #1B2A49;
-    margin-bottom: 50px;
+    margin: 0;
 }
 .menu-select {
     border: 1px solid #DEDEDE;
@@ -275,11 +278,11 @@ header {
     margin: 0 auto;
     gap: 9px;
     border: 1px solid transparent;
+    transition: 0.2s;
 }
 .menu-grid-btn:hover {
     background-color: #F37335;
     cursor: pointer;
-    transition-duration: 0.5s;
 }
 .menu-grid-icon {
     color: #443737;
@@ -293,7 +296,7 @@ header {
     color: #1E2F40;
     font-weight: 700;
     font-size: 14px;
-    background-color: transparent;
+    text-transform: uppercase;
 }
 .footer {
     background-color: #1E2F40;
@@ -332,10 +335,10 @@ header {
 .footer-list a {
     color: #DEDEDE;    
     font-weight: 400;
+    transition: 0.3s;
 }
 .footer-list a:hover {
     color: #FBB731;
-    transition-duration: 0.3s;
 }
 .footer-item span {
     color: #DEDEDE;
@@ -350,13 +353,36 @@ header {
     font-size: 20px;
     color: #FBB731;
     font-weight: 900;
+    transition: 0.3s;
 }
 .footer-list-tel a:hover {
     color: #DEDEDE;
-    transition-duration: 0.3s;
 }
 .footer-list {
     padding-left: 0;
+}
+.button-up {
+    background-color: #FBB731;
+    color: #1E2F40;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.button-up:hover {
+    background-color: #F37335;
+}
+.button-up.hidden {
+    opacity: 0;
+}
+..button-up.visible {
+    opacity: 1;
 }
 
 /*Style INDEX*/
