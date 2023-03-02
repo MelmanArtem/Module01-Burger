@@ -435,6 +435,13 @@ header {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
+    transition: 0.3s;
+}
+.content-link:hover {
+    background-color: #F37335;
+}
+.promo a:hover {
+    background-color: #F37335;
 }
 .visual{
     flex-grow: 1;
