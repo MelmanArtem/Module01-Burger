@@ -658,6 +658,40 @@ header {
         height: 37px;
         background-size: contain;
     }
+    .menu-title {
+        font-size: 27px;
+    }
+    .menu-select {
+        padding: 10px 15px;
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: 27px;
+    }
+    .menu-grid {
+        gap: 24px 12px;
+    }
+    .menu-grid-cover {
+        width: 139px;
+        height: 180px;
+        margin-bottom: 0;
+    }
+    .menu-grid-title {
+        font-size: 13px;
+        font-weight: 700;
+        margin-top: 15px;
+    }
+    .menu-grid-price {
+        font-size: 16px;
+        margin-top: 6px;
+        margin-bottom: 13px;
+    }
+    .menu-grid-btn {
+        padding: 14px 28px;
+    }
+    .menu-other .menu-grid-item {
+        flex: 0 0 auto;
+    }
+    
 }
 @media (max-width:320px) {
     .banner-box {
