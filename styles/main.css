@@ -673,7 +673,7 @@ header {
     .menu-grid-cover {
         width: 139px;
         height: 180px;
-        margin-bottom: 0;
+        margin: 0;
     }
     .menu-grid-title {
         font-size: 13px;
@@ -691,7 +691,19 @@ header {
     .menu-other .menu-grid-item {
         flex: 0 0 auto;
     }
-    
+    .footer {
+        margin-top: 0;
+        padding: 61px 0;
+    }
+    .footer-box {
+        flex-direction: column;
+    }
+    .footer-item {
+        margin-bottom: 31px;
+    }
+    .footer-list + .footer-list-tel {
+        display: none;
+    }
 }
 @media (max-width:320px) {
     .banner-box {
