@@ -1,5 +1,6 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
 }
 a {
     text-decoration: none;
@@ -584,6 +585,9 @@ header {
     .container{
         max-width:738px;
     }
+    .wrapper {
+        margin: 0 15px;
+    }
     .header-logo {
         width: 150px;
         height: 48px;
@@ -635,99 +639,99 @@ header {
     }
 }
 @media (max-width:768px) {
-    nav {
-        display: none;
-    }
-    .header {
-    gap: 21px;
-    }
-    .menu-other .container {
-        padding-right: 0;
-    }
-    .wrapper {
-        margin: 0 15px;
+    .main .wrapper {
+        height: 550px;
     }
     .content {
         padding-top: 42px;
-        padding-bottom: 123px;
+        padding-bottom: 122px;
     }
     .content-title {
+        font-weight: 800;
         font-size: 86px;
-        line-height: 100px;
+        line-height: 101px;
     }
     .content-title span {
+        font-weight: 700;
         font-size: 22px;
         line-height: 27px;
-        margin-bottom: 10px;
     }
     .content-text {
+        font-weight: 400;
         font-size: 14px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        text-align: left;
+        line-height: 140%;
+        max-width: 385px;
     }
     .content-link, .promo a {
         padding: 17px 40px;
         font-size: 13px;
     }
     .visual-bg {
+        position: absolute;
+        right: 15px;
         width: 198px;
-        margin-right: 10px;
     }
-    .main img {
-        background-color: transparent;
+    .visual img {
+        position: absolute;
         width: 496px;
-        left: -136px;
-        top: 95px;
+        right: -120px;
+        top: 100px;
     }
     .promo {
-        padding-top: 106px;
-        padding-bottom: 25px;
+        margin-top: 106px;
+        margin-bottom: 140px;
+        padding: 0;
+    }
+    .promo .wrapper {
+        height: 300px;
+    }
+    .promo-left {
+        padding: 44px 35px 43px 30px;
+    }
+    .promo-discription {
+        max-width: 280px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .promo-right {
+        padding: 60px 30px;
     }
 }
-
-@media (max-width:366px) {
-    .main .wrapper {
-		display: block;
-        position: relative;
-	}
-    .wrapper {
-        flex-direction: column;
-    }
-    .content-title {
-        font-size: 58px;
-        line-height: 70px;
-    }
-    .content-text {
-        padding-right: 88px;
-    }
-    .visual {
-        flex-grow: 1;
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
-    }
+@media (max-width:550px) {
     .visual-bg {
-        margin-right: 10px;
-        width: 198px;
+        display: none;
     }
-    .menu-header {
-        margin-bottom: 30px;
+    .visual img {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        right: 15px;
+        top: 270px;
     }
-    .header-logo {
-        width: 116px;
-        height: 37px;
-        background-size: contain;
+    .promo {
+        margin-top: 106px;
+        margin-bottom: 140px;
+        padding: 0;
     }
-    .menu-title {
-        font-size: 27px;
+    .promo .wrapper {
+        height: 300px;
+        gap: 10px;
     }
-    .menu-select {
-        padding: 10px 15px;
-        font-size: 12px;
-        font-weight: 400;
-        margin-left: 27px;
+    .promo-left {
+        padding: 30px;
     }
+    .cost {
+        font-size: 50px;
+    }
+    .promo-right {
+        padding: 30px;
+    }
+    .free {
+        font-size: 35px;
+    }
+}
+@media (max-width:366px) {
     .menu-grid {
         gap: 24px 12px;
     }
@@ -749,19 +753,43 @@ header {
         gap: 6px;
     }
     .main .wrapper {
-        width: 100%;
-    }
-    .main img {
-        position: absolute;
-        width: 250px;
-        left: 0;
-        top: 39px;
-    }
-	.promo {
-		display: flex;
-	    align-items: center;
-	    justify-content: center;
+		display: block;
+        margin-bottom: 95px;
 	}
+    .content {
+        padding-top: 42px;
+        padding-bottom: 66px;
+    }
+    .content-title {
+        font-size: 58px;
+        line-height: 120%;
+    }
+    .content-title span {
+        font-size: 14px;
+    }
+    .content-text {
+        font-size: 13px;
+        line-height: 140%;
+    }
+    .visual img {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 85px;
+        top: -120px;
+    }
+    .promo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .wrapper {
+        flex-direction: column;
+        margin: 0 15px;
+        margin-bottom: 60px;
+    }
     .promo-left, .promo-right {
         flex: 0 0 49%;
         color: #fff;
@@ -770,29 +798,7 @@ header {
         background-size: cover;
         background-position: center;
     }
-    .promo-left {
-        background-image: url(../images/promo-left.png);
-        padding: 50px 14px;
-    }
-    .promo-left {
-        margin-bottom: 20px;
-    }
-    .promo-right {
-        background-image: url(../images/promo-right.png);
-        padding: 50px 12px;
-    }
-    .footer {
-        padding-top: 46px;
-        padding-bottom: 60px;
-        margin-top: 28px;
-    }
-    .footer-box {
-        display: grid;
-        grid-template-columns: 30% 70%;
-        grid-template-areas:
-            "logo tel"
-            "links links"
-            "info info";
-        gap: 0;
+    .footer  {
+        margin-top: 61px;
     }
 }
