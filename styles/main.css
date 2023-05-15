@@ -454,12 +454,14 @@ header {
     width: 432px;
     height: 100%;
     background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+    background-position: 0 center;
 }
 .visual img {
-  width: 829px;  
+  width: 829px;
+  height: 100%;  
   position:absolute;
   right:-168px;
-  height: 100%;
+  
 }
 .promo {
     padding-top: 186px;
