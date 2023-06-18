@@ -691,8 +691,6 @@ header {
         top: 170px;
     }
     .promo {
-        display: flex;
-        gap: 20px;
         margin-top: 106px;
         margin-bottom: 140px;
     }
@@ -732,6 +730,10 @@ header {
         height: 350px;
         right: 80px;
         top: 280px;
+    }
+    .promo {
+        margin-top: 95px;
+        margin-bottom: 61px;
     }
     .promo .wrapper {
         display: flex;
