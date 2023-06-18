@@ -271,7 +271,9 @@
         </ul>
         <button class="burger-close" onclick="closeModal()"></button>
     </div>
+
     <script>
+        
         // Smooth Scroll 
         const links = document.querySelectorAll(".banner-link");
         for (const link of links) {
@@ -284,6 +286,7 @@
                 behavior: "smooth"
             });
         }
+
         // Button Up
         window.onscroll = function(){scrollFunction()};
         const upbuttons = document.querySelectorAll(".button-up");
@@ -305,6 +308,7 @@
                 document.getElementById('btnUp').className = 'button-up hidden';
             }
         }
+
         //Menu
         function openModal() {
            document.getElementById("modal").style.top = "0px";
@@ -312,7 +316,6 @@
        function closeModal() {
            document.getElementById("modal").style.top = "-400px";
         }
-
     </script>
 </body>
 </html>
