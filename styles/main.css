@@ -766,10 +766,9 @@ header {
         flex: 0 0 41vw;
     }
     .menu-grid-title {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 700;
         margin-top: 15px;
-        max-width: 146px;
     }
     .menu-select {
         flex-basis: 200px;
