@@ -769,6 +769,7 @@ header {
         font-size: 24px;
         font-weight: 700;
         margin-top: 15px;
+        max-width: 146px;
     }
     .menu-select {
         flex-basis: 200px;
