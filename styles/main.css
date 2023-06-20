@@ -678,6 +678,9 @@ header {
         padding: 17px 40px;
         font-size: 13px;
     }
+    .banner-box {
+        padding: 82px 26px 90px;
+    }
     .visual-bg {
         position: absolute;
         right: 15px;
@@ -722,6 +725,9 @@ header {
 @media (max-width:600px) {
     .header {
         gap: 21px;
+    }
+    .bg {
+        padding: 90px 0;
     }
     .main {
         position: relative;
